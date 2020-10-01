@@ -1,7 +1,5 @@
-age_count = 1; 
 my_age = 21;
-while(age_count < my_age){
+for(var age_count = 50; age_count > my_age; age_count--){
     console.log(`age ${age_count}`);
-    age_count++;
 }
 console.log(`Micah is ${age_count} years old!`)
