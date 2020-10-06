@@ -1,0 +1,32 @@
+/* General */
+body{
+    width: 800px;
+    margin: 0 auto;
+    }
+img{
+    width: 200px;
+    height: 200px;
+}
+/* Typography */
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+/* Form Styling */
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url("./images/smartphone.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px 620px;
+    color: black;
+}
+div{
+    border: 5px solid black;
+    display: flex;
+    
+}
+/* Styling the products to display */
