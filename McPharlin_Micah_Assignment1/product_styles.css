@@ -1,0 +1,48 @@
+/* General */
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color: cornsilk;
+    font-family: monospace;
+    }
+img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+/* Typography */
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+/* Form Styling */
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-size: 800px 620px;
+    color: black;
+    font-family: monospace;
+}
+div{
+    border: 5px solid black;
+    display: flex;
+    background-color: burlywood;
+    padding-bottom: 10px;
+    
+}
+.item{
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#quantity_textbox{
+    height: 20px;
+    width: 40px;
+}
+/* Styling the products to display */
+
